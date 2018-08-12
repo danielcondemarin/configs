@@ -13,7 +13,7 @@
 [push]
 	default = current
 [alias]
-        nb = "!f() { git checkout -b $1 origin/master; git branch --set-upstream-to origin/master; }; f"
+	nb = "!f() { git checkout -b $1 origin/master; git branch --set-upstream-to origin/master; }; f"
 	s = status -s
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 	co = checkout
